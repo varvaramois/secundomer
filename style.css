@@ -1,0 +1,41 @@
+body {
+    background: #f5f7fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+
+button {
+    background: linear-gradient(90deg, #4f8cff 0%, #38e7b6 100%);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 36px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(79,140,255,0.15);
+    transition: background 0.2s, transform 0.1s;
+}
+
+button:hover, button:focus {
+    background: linear-gradient(90deg, #38e7b6 0%, #4f8cff 100%);
+    transform: translateY(-2px) scale(1.04);
+    outline: none;
+}
+.minuta {
+    padding-top: 30px;
+    text-align: center;
+    color: rgb(81, 81, 188);
+    font-size: 40px;
+}
